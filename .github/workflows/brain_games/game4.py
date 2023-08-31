@@ -8,7 +8,7 @@ def generate_progression():
     progression = [str(start + i * diff) for i in range(10)]
     hidden_index = random.randint(0, 9)
     hidden_number = progression[hidden_index]
-    progression[hidden_index] = ".."# я очень быстро написал эту программу потаму что в спомнил задачу на хекслет про карточки.
+    progression[hidden_index] = ".."
     return " ".join(progression), hidden_number
 
 
